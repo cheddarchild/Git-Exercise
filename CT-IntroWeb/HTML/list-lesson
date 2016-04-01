@@ -1,0 +1,45 @@
+<ul>
+  <li>fank</li>
+  <li>frank</li>
+  <li>frnaklin</li>
+</ul>
+<ol>
+  <li>flour</li>
+  <li>eggs</li>
+</ol>
+
+<ul>
+  <li>fank</li>
+  <li>frank</li>
+  <li>frnaklin</li>
+    <ul>
+      <li>sub set list</li>
+      <li>po</li>
+      <li>popo</li>
+      <li>poo</li>
+      <li>poop</li>
+  </ul>
+  <li>tabs</li>
+</ul>
+
+<ol>
+  <li>Flour</li>
+  <li>Eggs</li>
+  <li>Mix</li>
+    <ul>
+      <li>sugar</li>
+      <li>water</li>
+      <li>sizurp</li>
+    </ul>
+</ol>
+
+<dl>
+  <dt>HTML</dt><dd>Hypertext Markup Language</dd>
+  <dt>CSS</dt><dd> Cascading Style Sheet<dd>
+</dl>
+
+<dl>
+  <dt>SNC Snowboard Team</dt>
+  <dt>Cory Rudolph</dt><dd> Rails</dd>
+  <dt>Austin Smith</dt><dd>Jumps and Rails<dd>
+</dl>

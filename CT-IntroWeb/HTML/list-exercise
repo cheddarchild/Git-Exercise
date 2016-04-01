@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>list-exercise</title>
+</head>
+<body>
+  <h1>CT100</hi>
+  <h2>Topics in this class so far</h2>
+    <ol>
+      <li>
+      Setting up <em>your</em> environment
+      <ul>
+        <li>Browsers</li>
+          <ul>
+            <li>Chrome</li>
+            <li>Firefox</li>
+          </ul>
+        <li>Text Editors</li>
+          <ol>
+            <li><strong>Atom</strong></li>
+            <li>Sublime Text</li>
+          </ol>
+      </ul>
+      </li>
+        <li>Intro to web development</li>
+        <li>
+          HTML
+          <ul>
+            <li>History</li>
+            <li>Rules</li>
+            <li>Tags</li>
+          <dl>
+            <dt>a</dt>
+            <dd>anchor</dd>
+            <dt>img</dt>
+            <dd>image</dd>
+            <dt>h1</dt>
+            <dd>most important heading</dd>
+            <dt>h6</dt>
+            <dd>least important heading</dd>
+            <dt>P</dt>
+            <dd>paragraph</dd>
+            <dt>strong</dt>
+            <dd>strong emphasis</dd>
+            <dt></dt>
+            <li>Boilerplate</li>
+          </ul>
+        </li>
+
+    </ol>
+    <h2>Topics coming up</h2>
+    <ul>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+</body>
+</html>
