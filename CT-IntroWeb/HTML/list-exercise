@@ -5,23 +5,27 @@
     <title>list-exercise</title>
 </head>
 <body>
-  <h1>CT100</hi>
+  <h1>CT100</h1>
   <h2>Topics in this class so far</h2>
     <ol>
       <li>
       Setting up <em>your</em> environment
-      <ul>
-        <li>Browsers</li>
-          <ul>
-            <li>Chrome</li>
-            <li>Firefox</li>
-          </ul>
-        <li>Text Editors</li>
-          <ol>
-            <li><strong>Atom</strong></li>
-            <li>Sublime Text</li>
-          </ol>
-      </ul>
+        <ul>
+          <li>
+          Browsers
+            <ul>
+              <li>Chrome</li>
+              <li>Firefox</li>
+            </ul>
+          </li>
+          <li>
+          Text Editors
+            <ol>
+              <li><strong>Atom</strong></li>
+              <li>Sublime Text</li>
+            </ol>
+          </li>
+        </ul>
       </li>
         <li>Intro to web development</li>
         <li>
@@ -47,7 +51,6 @@
             <li>Boilerplate</li>
           </ul>
         </li>
-
     </ol>
     <h2>Topics coming up</h2>
     <ul>
