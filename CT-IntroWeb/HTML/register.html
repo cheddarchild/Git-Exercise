@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>code-tahoe-exercise</title>
+</head>
+<body>
+  <header>
+    <h1><img src="https://github.com/CodeTahoe/CT100/blob/master/exercises/containers/logo.png?raw=true" alt="codetahoelogo" /> Welcome to CodeTahoe</h1>
+  </header>
+  <hr/>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="code-tahoe-exercise.html">Courses</a></li>
+        <li><a href="tables-exercise.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+  <section>
+    <h1>REGISTER FOR CODE TAHOE</h1>
+    <form action="">
+      <fieldset>
+        <legend>About You</legend>
+        <div>
+          <label for="name">Name</label>
+          <input name="name" id="name" placeholder="Full Name" type="text" required>
+        </div>
+        <div>
+          <label for="email">email</label>
+          <input name="email" id="email" type="email" placeholder="Your email address" required>
+        </div>
+        <div>
+          <label for="describe">Describe Your Web experience</label>
+          <textarea name="describe" id="describe" rows="5" cols="50"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Billing Info</legend>
+        <div>
+          <label for="name">Name on Card</label>
+          <input name="name" id="name" type="text" required>
+        </div>
+        <div>
+          <label for="cc-num">Card Number</label>
+          <input name="cc-num" id="cc-num" placeholder="xxxx-xxxx-xxxx-xxxx" type="number" required>
+        </div>
+        <div>
+          <label for="cvv2cvc2">CVV2/CVC2</label>
+          <input name="cvv2cvc2" id="cvv2cvc2" placeholder="CVV2/CVC2" type="number" required>
+        </div>
+        <div>
+          <label for="experation">Experation Date</label>
+          <input name="experation" id="experation" type="date" required>
+        </div>
+        <div>
+          <label for="billing">Billing Address</label>
+          <input name="billing" id="billing" type="text" required>
+        </div>
+        <div>
+          <label for="zip">Zip Code</label>
+          <input name="zip" id="zip" type="number" required>
+        </div>
+        <div>
+          <label for="course">Course Selection</label>
+          <select name="course" id="course" required>
+            <option>Please Select</option>
+            <option value="1">CT100</option>
+            <option value="2">Boot Camp</option>
+          </select>
+        </div>
+        <div>
+          <label for="full">
+            <input id="full" type="radio" value="a" name="1" checked>Pay in Full
+          </label>
+          <label for="deposit">Make $100 deposit
+            <input id="deposit" type="radio" value="b" name="1">Make $100 deposit
+          </label>
+        </div>
+        <div>
+          <label for="promo">Promo Code</label>
+          <input id="promo" type="text" placeholder="Can you find it">
+        </div>
+        <div>
+          <label for="summery">Summary</label>
+        </div>
+        <div>
+          <label for="total">Total</label>
+          <input type="text" readonly>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Cancel</button>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <hr/>
+  <footer>
+    <a href="#">Copywrite 2016</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">An Elevate Blue Company</a>
+  </footer>
+</body>
+</html>
