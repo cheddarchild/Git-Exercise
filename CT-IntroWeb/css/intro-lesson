@@ -1,0 +1,27 @@
+<head>
+  <style>
+      p {
+      background-color: hotpink;
+      border-width: 2px;
+      border-color: black;
+      border-style: solid;
+    }
+
+    .description {
+      background-color: orange;
+      border-top: 5px;
+      border-bottom: 5px;
+      border-color: red;
+      border-style: dashed solid dashed solid;
+    }
+
+    #main-description {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <p style="color: red; font-size: 24px;">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+  <p class="description">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+  <p id="main-description" class="description">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+</body>

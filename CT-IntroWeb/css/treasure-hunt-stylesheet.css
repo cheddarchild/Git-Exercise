@@ -1,0 +1,37 @@
+header {
+  font-size: 24px;
+  font-weight: lighter;
+  color: darkgrey;
+  border-bottom:1px solid darkgrey;
+}
+h3 {
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+.page-wrapper {
+  border: 1px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+footer {
+  color: darkblue;
+  font-size: .75rem;
+  background-color: yellow;
+}
+.design-name, .designer-name {
+  color: lightblue;
+  text-decoration: underline;
+}
+p {
+  font-size: 16px
+}
+.summary {
+  font-size: 1.5rem;
+}
+.summary, .preamble, .main, .participation, .benifits, .requirments, {
+  border: 2px solid lightgrey
+}
