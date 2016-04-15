@@ -1,0 +1,112 @@
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.haiku {
+  padding: 10px;
+  border: 2px;
+}
+.hi-title {
+  padding: 5px;
+  border: 2px;
+}
+.author {
+  padding: 5px
+}
+.footer {
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+}
+.project {
+  float: left;
+}
+.date {
+  float: right;
+}
+.haikus article {
+  padding: 5px;
+  position: absolute;
+  left:100px;
+  bottom:100px;
+  right: 100px;
+  top: 100px;
+  height: 410px;
+  width: 410px;
+}
+#winter {
+  background-image: url(https://github.com/cheddarchild/Git-Exercise/blob/master/CT-IntroWeb/css/seasons/assets/winter.jpg?raw=true);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+#silence {
+  position: absolute;
+  top: -185px;
+  left: 97px;
+  text-align: center;
+}
+#sos {
+  position: absolute;
+  top: 220px;
+  left: 232px;
+}
+#george {
+  position: absolute;
+  top: 300px;
+  left: 309px;
+}
+#summer {
+  background-image: url(https://github.com/cheddarchild/Git-Exercise/blob/master/CT-IntroWeb/css/seasons/assets/summer.JPG?raw=true);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#atc {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+#winter, #fall {
+  float:left;
+  width: 42.5%;
+  margin-left: 5%;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  background-position: center;
+}
+#summer, #spring {
+  float:right;
+  width: 42.5%;
+  margin-right: 5%;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  background-position: center;
+}
+#spring {
+  background-image: url(https://github.com/cheddarchild/Git-Exercise/blob/master/CT-IntroWeb/css/seasons/assets/spring.jpg?raw=true);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+#fall {
+  background-image: url(https://github.com/cheddarchild/Git-Exercise/blob/master/CT-IntroWeb/css/seasons/assets/fall.jpg?raw=true);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+#winter, #summer {
+  margin-bottom: 126px;
+  margin-top: 100px;
+}
+#fall, #spring {
+  margin-bottom: 100px;
+}
