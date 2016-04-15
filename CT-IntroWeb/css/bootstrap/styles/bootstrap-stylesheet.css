@@ -3,12 +3,21 @@
   border: 1px solid black;
   min-height: 500px;
 }
-
 .grid-content {
   border: 1px solid blue;
   height: 50px;
 }
-
 .row {
   margin-bottom: 12px;
+}
+h1, h2 {
+  line-height: 40px;
+}
+.sub {
+  font-size: 65%;
+  font-weight: 300;
+  padding-left: 10px;
+}
+.thumbnails img {
+  width: 75%;
 }
